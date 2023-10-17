@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Case1",
+        "width": 100,
+        "length": 150,
+        "height": 200,
+        "mass": 5.8,
+        "material": "Texture4",
+        "labelname": "Label-One",
+        "labelcolour": "#FFFFFF",
+        "typename": "Front-Right",
+        "labelx": 75,
+        "labely": 45,
+        "labelwidth": 145,
+        "labelheight": 120,
+        "directionx": 0,
+        "directiony": 0,
+        "directionz": 0,
+        "createdBy": "PeterPan",
+        "createdDatetime": "03-03-2023 15:31:21",
+        "updatedBy": "PeterPan",
+        "updatedDatetime": "03-03-2023 15:31:21"
+    }
+]

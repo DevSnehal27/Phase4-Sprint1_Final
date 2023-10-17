@@ -1,0 +1,17 @@
+version: "3"
+services:
+  api:
+    build: .
+    image: reactnet3
+    ports:      
+      - "5001:80"
+    environment:                  
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:80     
+      - ASPNETCORE_HTTPS_PORT=5001
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=webapp123
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+    volumes:
+      - ./https/aspnetapp.pfx:/https/aspnetapp.pfx:ro
+    expose:        
+      - 80

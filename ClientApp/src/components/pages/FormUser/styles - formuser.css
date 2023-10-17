@@ -1,0 +1,148 @@
+  .container {
+    display: flex;
+  flex-direction: row;
+
+  margin-top: 8px;
+  margin-bottom: -20px;
+  margin-left: -4px;
+  margin-right: 15px;
+  height: 80px;
+ }
+ .Rotate{
+  margin-left: 245px;
+  border-radius: 95px;
+  width: 5px !important;
+ }
+ .MuiButton-label {
+  width: -384% !important;
+  
+}
+.textflield{
+  display: flex;
+  flex-direction: row;
+  }
+  .MuiOutlinedInput-notchedOutline {
+    /* border-color: rgba(0, 0, 0, 0); */
+    /* border-color: white; */
+    border-color: rgba(0, 0, 0, 0)!important;
+    border-top-color: rgba(0, 0, 0, 0)!important;
+    border-right-color: rgba(0, 0, 0, 0)!important;
+    border-left-color: rgba(0, 0, 0, 0)!important;
+    margin-left: 2;
+    margin-Right: 2;
+    width: 100;
+    font-size: 12;
+}
+.PrivateNotchedOutline-root-12 .MuiOutlinedInput-notchedOutline{
+  border-color: rgba(0, 0, 0, 0);
+}
+.MuiSelect-outlined.MuiSelect-outlined {
+  background-color: white !important;
+}
+.MuiInputBase-root .MuiOutlinedInput-root .MuiInputBase-formControl .MuiInputBase-marginDense .MuiOutlinedInput-marginDense{
+  background-color: white !important;
+}
+input {
+  border-bottom: white !important; 
+ }
+  .mass {
+    padding: 15px;
+    text-align: left;
+    height: 10px;
+    /* border: none; */
+    box-sizing: border-box;
+    background: transparent;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 300;
+    width: 22%;
+    /* border: 2px solid gray; */
+    outline: none;
+    /* margin-right: 17px;
+    margin-left: 6px; */
+    margin-top: 8px;
+    font-family: 'Roboto',sans-serif;
+  }
+
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body { margin: 0; }
+  .outer {
+  }
+  .frame { 
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  .frame>* {
+    flex: 1 1 50%;
+  }
+  #editor {
+    font-family: monospace;
+    padding: .5em;
+    background: #444;
+    color: white;
+  }
+  canvas { 
+    width: 100%;
+    height: 100%;
+  }
+  .parentcontainer1{
+    position: absolute;
+    width: 100%;
+    padding: .5em;    
+    left: 5px;
+    right: 2px;
+  }
+  .container1{
+  position: absolute;
+  top: 13px;
+  left: 170px;  
+}
+.Picker{
+  margin-left: 20px;
+  margin-top: -5px;
+  /* margin-right: 40%; */
+}
+
+.LabelColorForDiv{
+  margin-left: 12px;
+  margin-top: 14px;
+  font-size: 12px;
+}
+.container2{
+  position: absolute;
+  top: 10;
+  left: 45px;
+}
+
+#labelColor {
+  position: absolute;
+  top: 13px;
+  left: 70px;
+}
+  .flex-col-scroll {
+    flex-grow: 1;
+    overflow: auto;
+    min-height: 100%;
+  }
+
+  .row {
+    position: absolute;
+    top: -10px;
+    left: 57px;
+  }
+
+canvas { display: block; margin: 0px; padding: 0px; }
+#arrowCanvas  {
+  position: absolute;
+  left: -30px;
+  top: 237px;
+  z-index: 50;
+  
+}
+  

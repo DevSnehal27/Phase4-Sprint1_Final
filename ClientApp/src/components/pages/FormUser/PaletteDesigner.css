@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* border: 1px solid black; */
+    margin-top: 7px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+    margin-bottom: -20px;
+    margin-left: -4px;
+    margin-right: 15px;
+    /* height: 80px; */
+
+}
+
+.MuiOutlinedInput-inputMarginDense {
+    /* padding-top: 10.5px; */
+    text-align: end;
+    /* padding-bottom: 10.5px; */
+    /* padding-top: 11.5px !important;
+    padding-bottom: 7.5px !important; */
+    padding-top: 3.5px !important;
+    padding-bottom: 1.5px !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+    /* border-color: rgba(0, 0, 0, 0); */
+    /* border-color: white; */
+    border-color: rgba(0, 0, 0, 0) !important;
+    border-top-color: rgba(0, 0, 0, 0) !important;
+    border-right-color: rgba(0, 0, 0, 0) !important;
+    border-left-color: rgba(0, 0, 0, 0) !important;
+    margin-left: 2;
+    margin-Right: 2;
+    width: 100;
+    font-size: 12;
+}
+
+.MuiSelect-outlined.MuiSelect-outlined {
+    background-color: white !important;
+}
+
+.MuiInputBase-root .MuiOutlinedInput-root .MuiInputBase-formControl .MuiInputBase-marginDense .MuiOutlinedInput-marginDense {
+    background-color: white !important;
+}
+
+.MuiExpansionPanel-rounded:last-child {
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.MuiExpansionPanel-rounded:first-child {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
+.MuiSelect-outlined {
+    border-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
+.palethome {
+    display: flex;
+    flex-direction: row;
+}
+
+/* .Basic { */
+/* border: 1px solid black; */
+/* height: 200;
+} */
+
+/* .Basics { */
+/* border: 1px solid; */
+/* margin-bottom: 4px; */
+/* } */
+
+.MuiFormControl-root {
+    height: 38px;
+    /* width: 155px; */
+}
+
+.checkbox {
+    margin-left: 124px;
+}
+
+/* .MuiInputBase-root {
+    margin-left: -2px;
+} */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.MuiInputBase-root1 {
+    width: 83px;
+}
+
+.onlyread {
+    width: 90px;
+}
+
+.options {
+    margin-top: -15px;
+}
+
+#Case {
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+#parent_div_1 {
+    width: 150%;
+    height: 27px;
+    padding: 0;
+    font-size: 15;
+    margin-left: 9px;
+    margin-top: 17px;
+    /* float: left; */
+}
+
+
+#parent_div_2 {
+    width: 80px;
+    padding: 10;
+    font-size: 12;
+    margin-top: 20px;
+    float: left;
+}
+
+#parent_div_3 {
+    width: 40px;
+    padding: 10;
+    font-size: 12;
+    margin-left: 150px;
+    margin-top: 20px;
+    float: left;
+}
+
+.child_div_1 {
+    float: left;
+    /* margin-right: 5px; */
+}
+
+.child_div_2 {
+    float: left;
+    margin-right: 3px;
+    margin-top: 4px;
+}
+
+.GreenCan {
+    margin-top: -400px;
+}
+
+.carousel-classPrev {
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 10px;
+    z-index: 5;
+    color: lavender;
+    cursor: pointer;
+}
+
+.carousel-classNext {
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 534px;
+    z-index: 5;
+
+    display: inline-block;
+    padding: 3px;
+    color: lavender;
+    cursor: pointer;
+}
+
+.video-container {
+    height: 140vh;
+    position: relative;
+    width: 140vw;
+}
+
+.video-container video {
+    height: 50%;
+    object-fit: cover;
+    position: fixed;
+    width: 50%;
+    z-index: 0;
+}
+
+.MuiButton-label {
+    width: 45%;
+    height: 45%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+#outside_labelpriority {
+    /* padding-bottom: 4px !important; */
+    margin-top: 2px !important;
+    padding-top: 7px !important;
+}
+
+.MuiExpansionPanelDetails-root {
+    display: flex;
+    margin-left: -4px;
+    width: 100%;
+    padding: 8px 16px 16px;
+}
+
+.one-fourth {
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+
+section img {
+    height: 42px;
+    margin-bottom: 52px;
+    /* vertical-align: middle; */
+    border-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 4px !important;
+    /* height: 25px; */
+    height: 4px !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.css-53tbrc-MuiSlider-root {
+    border-radius: 1px;
+    box-sizing: content-box;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    touch-action: none;
+    right: 71px !important;
+    color: rgba(0, 0, 0, 0.54) !important;
+    -webkit-tap-highlight-color: transparent;
+    height: 2px;
+    width: 37% !important;
+    padding: 23px 0 !important;
+}
+
+.css-1623zc {
+    border-radius: 12px;
+    box-sizing: content-box;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    touch-action: none;
+    /* color: rgb(25, 118, 210); */
+    -webkit-tap-highlight-color: transparent;
+    height: 2px;
+    /* width: 54%; */
+    /* right: 80px !important; */
+    color: rgba(0, 0, 0, 0.54) !important;
+    /* padding: 23px 0px; */
+    top: 10px !important;
+    right: 75px !important;
+}
+
+.css-1623zc {
+    border-radius: 12px;
+    box-sizing: content-box;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    touch-action: none;
+    color: rgba(0, 0, 0, 0.54) !important;
+    -webkit-tap-highlight-color: transparent;
+    height: 2px;
+    width: 50% !important;
+    /* padding: 0px 0px; */
+    top: 10px !important;
+    right: 75px;
+}
+
+/* .PrivateSwitchBase-root-5 {
+    padding: 9px;
+    width: 18px;
+    height: 18px;
+} */
+
+.css-y35fuw-MuiSlider-thumb {
+    position: absolute;
+    width: 10px !important;
+    height: 10px !important;
+    box-sizing: border-box;
+    border-radius: 50%;
+    outline: 0;
+    background-color: currentColor;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-transition: box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, left 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, bottom 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, left 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, bottom 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    left: 50%;
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.MuiIconButton-colorSecondary {
+    color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.MuiRadio-colorSecondary.Mui-checked {
+    color: #f50057 !important;
+}
+
+.css-y50uh2-MuiSlider-root {
+    border-radius: 12px;
+    box-sizing: content-box;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    touch-action: none;
+    color: gray !important;
+    -webkit-tap-highlight-color: transparent;
+    height: 100%;
+    width: 4px;
+    padding: 0 13px;
+}
+
+.css-rqvgnb {
+    border-radius: 12px;
+    box-sizing: content-box;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    touch-action: none;
+    color: gray !important;
+    -webkit-tap-highlight-color: transparent;
+    height: 100%;
+    width: 4px;
+    padding: 0px 13px;
+}
+
+.css-1dklv9c {
+    position: absolute;
+    width: 10px !important;
+    height: 10px !important;
+    box-sizing: border-box;
+    border-radius: 50%;
+    outline: 0px;
+    background-color: currentcolor;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    transition: box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, left 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, bottom 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+

@@ -1,0 +1,679 @@
+.App {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 23px;
+  margin-top: 28px;
+  margin-right: 23px;
+
+}
+
+.MuiOutlinedInput-notchedOutline {
+  /* border-color: rgba(0, 0, 0, 0); */
+  /* border-color: white; */
+  border-color: rgba(0, 0, 0, 0) !important;
+  border-top-color: rgba(0, 0, 0, 0) !important;
+  border-right-color: rgba(0, 0, 0, 0) !important;
+  border-left-color: rgba(0, 0, 0, 0) !important;
+  margin-left: 2;
+  margin-Right: 2;
+  width: 100;
+  font-size: 12;
+}
+
+.MuiExpansionPanelSummary-root {
+  min-height: 72px !important;
+}
+
+.MuiSelect-nativeInput {
+  background-color: white !important;
+  height: 12px !important;
+  min-height: 8px !important;
+}
+
+.MuiListItem-root.Mui-selected:hover {
+  background-color: white !important;
+}
+
+.MuiListItem-root.Mui-selected .MuiListItem-root.Mui-selected:hover {
+  background-color: white !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.MuiListItem-root.Mui-selected {
+  background-color: white !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+#outlined-type {
+  /* padding-top: 4px !important; */
+  padding-top: 7px !important;
+  /* padding-bottom: 4px !important;
+  padding-left: 4px;
+  margin-top: 3px !important; */
+
+}
+
+.MuiListItem-button {
+  transition: background-color 150ms white(0.0, 0, 0.0, 0) 0ms !important;
+  /* transition: none !important;
+  background-color: white !important; */
+}
+
+.MuiSvgIcon-root .MuiSelect-icon .MuiSelect-iconOutlined {
+  background-color: white !important;
+}
+
+.MuiSvgIcon-root .MuiSelect-icon .MuiSelect-iconOutlined {
+  background-color: white !important;
+}
+
+.MuiInputBase-root .MuiOutlinedInput-root .MuiInputBase-formControl .MuiInputBase-marginDense .MuiOutlinedInput-marginDense {
+  background-color: white !important;
+}
+
+.MuiExpansionPanel-rounded:last-child {
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.inputfield2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px !important;
+  width: 600px;
+  border: 0.5px solid #dddbdf;
+  border-radius: 0px !important;
+  margin-bottom: -2px !important;
+  background-color: rgba(242, 242, 242);
+  font-family: 'Roboto', sans-serif;
+}
+
+.MuiExpansionPanel-rounded:first-child {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+
+.MuiSelect-outlined {
+  border-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+
+.css-g28sfz-MuiListItem-root {
+  width: 98% !important;
+}
+
+.MuiOutlinedInput-inputMarginDense {
+  padding-top: 3.5px !important;
+  padding-bottom: 1.5px !important;
+  text-align: end;
+
+}
+
+.inputfield2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px !important;
+  width: 600px;
+  border: 0.5px solid #dddbdf;
+  border-radius: 0px !important;
+  margin-bottom: -2px !important;
+  background-color: rgba(242, 242, 242);
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.topping {
+  margin-top: 0.3rem;
+  vertical-align: text-bottom;
+  font-family: 'Roboto', sans-serif;
+}
+
+.result {
+  margin-top: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.toppings-list,
+.total {
+  width: 30%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.toppings-list {
+  list-style: none;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.toppings-list li {
+  margin-bottom: 0.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.toppings-list-item {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+}
+
+.toppings-list li:last-child {
+  border-top: 1px solid #ccc;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.toppings-list-item label {
+  vertical-align: text-bottom;
+  margin-left: 0.2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.total {
+  margin-top: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+
+  .toppings-list,
+  .total {
+    width: 90%;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+input {
+  padding: 25px;
+  text-align: left;
+  height: 30px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 30%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+  margin-right: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.AddBtn {
+  width: 40px;
+  height: 45px;
+  background-color: #7e57c2 !important;
+  color: white !important;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 50% !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+.textFont {
+  /* font-family: verdana; */
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.delBtn {
+  width: 20vh;
+  height: 7vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 50px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.forwdBtn {
+  width: 20vh;
+  height: 7vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.exportBtn {
+  width: 20vh;
+  height: 7vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.children {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto', sans-serif;
+}
+
+.flexed {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+.parentFormuser{
+ max-width: 1366px;
+  max-height: 500px;
+  margin: 5px;
+  border-radius: 3px;
+  background-color: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+}
+
+.parentPallet{
+max-width: 1366px;
+  max-height: 500px;
+  margin: 5px;
+  border-radius: 3px;
+  background-color: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+
+}
+.parent {
+  max-width: 100%;
+  height: 100vh;
+  margin: 5px;
+  border-radius: 3px;
+  background-color: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+}
+
+.table {
+  margin-right: 23px;
+  margin-bottom: 28px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* .inputfield2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 7px;
+  width: 600px;
+  border: 0.5px solid #dddbdf;
+  border-radius: 2px;
+  background-color: rgba(242, 242, 242);
+  font-family: 'Roboto',sans-serif;
+} */
+
+.inputField {
+  height: 24px;
+  width: 300px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.css-ahj2mt-MuiTypography-root {
+  margin: 0;
+  width: 100%;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px !important;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+
+.childOne {
+  border: grey solid 1px;
+}
+
+.listcss {
+  width: 40vw;
+  margin-right: 10px;
+}
+
+/* .MuiOutlinedInput-notchedOutline { */
+/* border-color: rgba(0, 0, 0, 0); */
+/* border-color: white; */
+/* border-color: rgba(0, 0, 0, 0)!important;
+  border-top-color: rgba(0, 0, 0, 0)!important;
+  border-right-color: rgba(0, 0, 0, 0)!important;
+  border-left-color: rgba(0, 0, 0, 0)!important;
+  margin-left: 2;
+  margin-Right: 2;
+  width: 100;
+  font-size: 12;
+} */
+/* .MuiSelect-nativeInput{
+  background-color: white !important;
+}
+.MuiSvgIcon-root .MuiSelect-icon .MuiSelect-iconOutlined{
+  background-color: white !important;
+}
+.MuiSelect-outlined.MuiSelect-outlined {
+  background-color: white !important;
+}
+.MuiInputBase-root .MuiOutlinedInput-root .MuiInputBase-formControl .MuiInputBase-marginDense .MuiOutlinedInput-marginDense{
+  background-color: white !important;
+} */
+#pallet_name {
+  padding-bottom: 4px !important;
+  margin-top: 2px !important;
+  padding-top: 2px !important;
+}
+
+.css-g28sfz-MuiListItem-root>.MuiListItemButton-root {
+  padding-right: 48px;
+  height: 27px !important;
+}
+
+.MuiGrid-spacing-xs-1>.MuiGrid-item {
+  /* padding: 4px; */
+  padding-top: 7px !important;
+}
+
+.MuiExpansionPanelDetails-root {
+  display: flex;
+  padding: 8px 11px 16px !important;
+}
+
+.MuiCollapse-wrapperInner {
+  width: 100%;
+  background-color: white;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px !important;
+}
+
+.css-g28sfz-MuiListItem-root {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: center;
+  align-items: left;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  height: 27px;
+  width: 100%;
+  font-size: 12px;
+  align-items: center;
+  text-align: left;
+  box-sizing: border-box;
+  text-align: left;
+  text-align: -webkit-match-parent;
+}
+
+.css-et1ao3-MuiTypography-root {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  margin-left: -20px;
+  letter-spacing: 0.01071em;
+  display: block;
+  text-align: left;
+}
+
+.css-tlelie-MuiListItemText-root {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-width: 0;
+  margin-top: 4px;
+  margin-left: -15px;
+  margin-bottom: 4px;
+}
+
+.css-g28sfz-MuiListItem-root>.MuiListItemButton-root {
+  padding-right: 48px;
+  margin-left: 15px !important;
+  height: 27px !important;
+}
+
+.css-9l3uo3 {
+  margin: 0px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  /* font-size: 12px; */
+  font-size: 12px !important;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+
+/* #checkbox-list-secondary-label-0{
+  margin-left: 12px;
+} */
+
+.css-1dvx2ak {
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  width: 98% !important;
+  height: 27px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.inputfield2,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+.css-futsu4 {
+  list-style: none;
+  margin: 0px;
+  padding: 8px 0px;
+  position: relative;
+  width: 490px;
+  height: 150px;
+  overflow-x: hidden;
+}
+
+.css-1dvx2ak {
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  width: 98% !important;
+  height: 27px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.MuiIconButton-colorSecondary {
+  color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.MuiIconButton-colorSecondary {
+  color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.MuiRadio-colorSecondary.Mui-checked {
+  color: #f50057 !important;
+}
+
+#textnotclick {
+  pointer-events: none;
+}
+.Activeuserbtn
+{
+  margin-right:10%;
+    width: 112pt;
+  height: 30px;
+  pointer-events: none;
+}
+.Activeusertxt
+{
+  padding-left: 12%;
+  font-size: 12pt;
+  text-align: center;
+  text-transform:none;
+}
+.RadioButtonControl
+{
+  margin-left: 4%!important;
+  margin-top: auto!important;
+  margin-bottom: auto!important;
+}
+.EditcaseradioGroup
+{
+  left: 0px;
+  bottom: 8px;
+  margin:auto 0px;
+  width:33.3%;
+  padding-right:8.2%;
+  margin-left: 0px!important;
+}
+#ImportData1{
+  margin-left: 70%!important;
+}
+#ImportData2{
+  margin-left: 70%!important;
+}
+.Importdropdown{
+  width:40%!important;
+}
+
+
+/* Media Query  */
+@media screen and (max-width: 1680px) {
+  #ImportData1{
+    margin-left: 64%!important;
+  }
+  .EditcaseradioGroup
+{
+  padding-right:7.4%;
+}
+#ImportData2{
+  margin-left: 64%!important;
+}
+
+
+}
+@media screen and (max-width: 1600px) {
+  #ImportData1{
+    margin-left: 62%!important;
+  }
+  .EditcaseradioGroup
+{
+  padding-right:7%;
+}
+#ImportData2{
+  margin-left: 62%!important;
+}
+
+}
+@media screen and (max-width: 1440px) {
+  .EditcaseradioGroup{
+padding-right: 6.1%;
+  }
+  #ImportData1{
+    margin-left: 58.0%!important;
+  }
+  #ImportData2{
+    margin-left: 58.0%!important;
+  }
+}
+@media screen and (max-width: 1366px)
+{
+  .EditcaseradioGroup {
+    padding-right: 5.7%;
+}
+#ImportData1{
+  margin-left: 55%!important;
+}
+#ImportData2 {
+  margin-left: 55%!important;
+}
+}
+@media screen and (max-width: 1280px)
+{
+.EditcaseradioGroup {
+  padding-right: 5.1%;
+}
+#ImportData2 {
+  margin-left: 52%!important;
+}
+#ImportData1 {
+  margin-left: 52%!important;
+}
+}
+@media screen and (max-width: 1024px)
+{
+.RadioButtonControl {
+  margin-left: 0%!important;
+}
+.deleteCase
+{
+  width: 100%!important;
+}
+.EditcaseradioGroup {
+  padding-right: 7.0%;
+}
+.exportcasedata{
+  width: 100%!important;
+}
+#ImportData1 {
+  margin-left: 21%!important;
+}
+#ImportData2 {
+  margin-left: 21%!important;
+}
+.exportpallettxt
+{
+width: 100%!important;
+}
+.deletepallettxt{
+  width: 100%!important;
+}
+
+}
+@media screen and (max-width: 800px)
+{
+.editcase
+{
+  width: 100%!important;
+}
+.EditcaseradioGroup {
+  padding-right: 6%!important;
+}
+
+}
