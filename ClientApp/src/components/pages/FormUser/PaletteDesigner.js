@@ -446,7 +446,8 @@ class PaletteDesignerPage extends Component {
       S_set_2ndPrePos_X: 0,
       S_set_2ndPrePos_X2: 0,
       S_set_2ndPrePos_Z: 0,
-      S_set_2ndPrePos_Z2: 0
+      S_set_2ndPrePos_Z2: 0,
+       valueforzindex: "0",
     };
     this.canvasRefs = [];
     this.touchStartDistance = 0;
@@ -4915,12 +4916,66 @@ class PaletteDesignerPage extends Component {
       }
     }
 
-    if (this.state.panelname === 'panel4') {
+    if (this.state.panelname === 'panel4' || this.state.panelname === 'panel5') {
+      console.log("circle for panel5 for test:")
       console.log("circle for panel4 1")
       this.arrow();
+
       this.ctx_LayerCreator.clearRect(0, 0, canvas_For_LayerCreator.width, canvas_For_LayerCreator.height);
       if (this.state.selectedOne) {
         console.log("circle for panel4 2")
+
+
+        // console.log("In the panel4 Z 2: ")
+        if (this.state.originPal1 == "Upper Right Corner" && this.state.firstcase_pal1 == "Upper Right Corner") {
+          console.log("In the panel4 Z 3: ")
+
+          this.state.valueforzindex = "4";
+
+          this.setState({
+            valueforzindex: "4"
+          })
+        }
+        else if (this.state.originPal1 == "Upper Left Corner" && this.state.firstcase_pal1 == "Upper Left Corner") {
+          console.log("In the panel4 Z 333333: ")
+          this.state.valueforzindex = "4";
+
+          this.setState({
+            valueforzindex: "4"
+          })
+        }
+        else if (this.state.originPal1 == "Lower Left Corner" && this.state.firstcase_pal1 == "Lower Left Corner") {
+          console.log("In the panel4 Z 3: ")
+          this.state.valueforzindex = "4";
+
+          this.setState({
+            valueforzindex: "4"
+          })
+        }
+        else if (this.state.originPal1 == "Lower Right Corner" && this.state.firstcase_pal1 == "Lower Right Corner") {
+          console.log("In the panel4 Z 3: ")
+
+          this.state.valueforzindex = "4";
+
+          this.setState({
+            valueforzindex: "4"
+          })
+        }
+        else {
+          this.state.valueforzindex = "0";
+
+          this.setState({
+            valueforzindex: "0"
+          })
+        }
+
+        //upper right corner
+        this.ctx_LayerCreator.beginPath();
+        this.ctx_LayerCreator.fillStyle = "black";
+        this.ctx_LayerCreator.fillStyle = "#E1D5E7";
+        this.ctx_LayerCreator.arc(this.state.arcX, this.state.arcY, 20, 0, 2 * Math.PI);
+        this.ctx_LayerCreator.fill();
+        this.ctx_LayerCreator.stroke();
 
         // // upper right corner
         this.ctx_LayerCreator.beginPath();
@@ -4932,18 +4987,61 @@ class PaletteDesignerPage extends Component {
         this.ctx_LayerCreator.fill();
         this.ctx_LayerCreator.stroke();
 
-        //upper right corner
-        this.ctx_LayerCreator.beginPath();
-        this.ctx_LayerCreator.fillStyle = "black";
-        this.ctx_LayerCreator.fillStyle = "#E1D5E7";
-        this.ctx_LayerCreator.arc(this.state.arcX, this.state.arcY, 20, 0, 2 * Math.PI);
-        this.ctx_LayerCreator.fill();
-        this.ctx_LayerCreator.stroke();
       }
       else if (this.state.selectedTwo) {
         // this.ctx_forPRC.clearRect(0, 0, canvas_forSingle.width, canvas_forSingle.height);
         // this.ctx_forPRC.clearRect(0, 0, myRef_forSingleCanvas.width, myRef_forSingleCanvas.height);
         this.ctx_LayerCreator.clearRect(0, 0, canvas_For_LayerCreator.width, canvas_For_LayerCreator.height);
+
+
+        if (this.state.originPal2 == "Upper Right Corner" && this.state.firstcase_pal2 == "Upper Right Corner") {
+          console.log("In the panel4 Z 3: ")
+
+          this.state.valueforzindex = "4";
+
+          this.setState({
+            valueforzindex: "4"
+          })
+        }
+        else if (this.state.originPal2 == "Upper Left Corner" && this.state.firstcase_pal2 == "Upper Left Corner") {
+          console.log("In the panel4 Z 3: ")
+          this.state.valueforzindex = "4";
+
+          this.setState({
+            valueforzindex: "4"
+          })
+        }
+        else if (this.state.originPal2 == "Lower Left Corner" && this.state.firstcase_pal2 == "Lower Left Corner") {
+          console.log("In the panel4 Z 3: ")
+          this.state.valueforzindex = "4";
+
+          this.setState({
+            valueforzindex: "4"
+          })
+        }
+        else if (this.state.originPal2 == "Lower Right Corner" && this.state.firstcase_pal2 == "Lower Right Corner") {
+          console.log("In the panel4 Z 3: ")
+
+          this.state.valueforzindex = "4";
+
+          this.setState({
+            valueforzindex: "4"
+          })
+        }
+        else {
+          this.state.valueforzindex = "0";
+
+          this.setState({
+            valueforzindex: "0"
+          })
+        }
+
+        this.ctx_LayerCreator.beginPath();
+        this.ctx_LayerCreator.fillStyle = "black";
+        this.ctx_LayerCreator.fillStyle = "#E1D5E7";
+        this.ctx_LayerCreator.arc(this.state.arcX2, this.state.arcY2, 20, 0, 2 * Math.PI);
+        this.ctx_LayerCreator.fill();
+        this.ctx_LayerCreator.stroke();
 
         // // upper right corner
         this.ctx_LayerCreator.beginPath();
@@ -4954,13 +5052,6 @@ class PaletteDesignerPage extends Component {
         this.ctx_LayerCreator.fill();
         this.ctx_LayerCreator.stroke();
 
-
-        this.ctx_LayerCreator.beginPath();
-        this.ctx_LayerCreator.fillStyle = "black";
-        this.ctx_LayerCreator.fillStyle = "#E1D5E7";
-        this.ctx_LayerCreator.arc(this.state.arcX2, this.state.arcY2, 20, 0, 2 * Math.PI);
-        this.ctx_LayerCreator.fill();
-        this.ctx_LayerCreator.stroke();
       }
 
       // this.arrowOfXY_LayerCreator();
@@ -19538,6 +19629,7 @@ this.handlenumoncase();
                     ref={this.myRef_for_LayerCreator}
                     style={{
                       position: "absolute",
+                      zIndex: this.state.valueforzindex,
                       visibility: this.state.canvas_LayerCreator,
                       marginTop: this.state.Margin_Top,
                       width: this.state.Margin_Width,

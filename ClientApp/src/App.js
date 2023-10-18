@@ -15,74 +15,16 @@ import TopNavigation from "./components/navigation/TopNavigation";
 import FormUserPage1 from "./components/pages/FormUser/FormUser1";
 import PaletteDesignerPage from "./components/pages/FormUser/PaletteDesigner";
 
-import Joyride from 'react-joyride';
-import JoyrideOverlay from 'react-joyride';
-import { steps } from "./tourData";
-import Overlay from "./Overlay";
 import HelpMamual from "./HelpMamual";
 
 
 
 const App = ({ location, isAuthenticated }) => {
 
-  const [joyride, setJoyride] = useState({
-    run: false,
-    stepIndex: 0,
-  });
-
-  const startJoyride = () => {
-    setJoyride((prev) => ({ ...prev, run: true }));
-  };
-
-  const handleNext = () => {
-    // setJoyride((prev) => ({ ...prev, stepIndex: prev.stepIndex + 1 }));
-    if (stepIndex === steps.length - 1) {
-      // Reset tour to the first step after reaching the last step
-      setJoyride((prev) => ({ ...prev, stepIndex: 0 }));
-    } else {
-      setJoyride((prev) => ({ ...prev, stepIndex: prev.stepIndex + 1 }));
-    }
-  };
-
-  const handleFinish = () => {
-    // setJoyride((prev) => ({ ...prev, run: false }));
-    setJoyride((prev) => ({ ...prev, stepIndex: 0, run: false }));
-  };
-
-  const { run, stepIndex } = joyride;
-  const currentStep = steps[stepIndex];
-
-
-
- 
-
-
-
   return (
   
       <div>
-        {/* <button onClick={startJoyride}>Start AdjuPal Tour</button> */}
-
-        <Overlay
-          steps={steps}
-          run={run}
-          stepIndex={stepIndex}
-          onStart={startJoyride}
-          onNext={handleNext}
-          onFinish={handleFinish}
-          onSkip={handleFinish}
-        />
-        <Joyride
-          steps={steps}
-          run={run}
-          continuous={true}
-          showProgress={true}
-          callback={(data) => {
-            if (data.type === 'finished' || data.action === 'skip') {
-              setJoyride((prev) => ({ ...prev, run: false }));
-            }
-          }}
-        />
+       
         <Route
           location={location}
           path="/confirmation/:token"
